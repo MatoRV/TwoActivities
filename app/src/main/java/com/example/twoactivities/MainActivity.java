@@ -5,6 +5,7 @@ import static androidx.core.content.PackageManagerCompat.LOG_TAG;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -25,5 +26,9 @@ public class MainActivity extends AppCompatActivity {
     public void activarSegundaActividad(View view) {
         Log.d(LOG_TAG, "Botón clicado");
 
+        // El Intent recibe dos argumentos (la aplicación y el componente que recibe el Intent)
+        Intent intent = new Intent(this, SecondActivity.class);
+
+        startActivity(intent);
     }
 }
