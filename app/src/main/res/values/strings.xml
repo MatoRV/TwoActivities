@@ -4,4 +4,7 @@
     <string name="activity2_name">Segunda Actividad</string>
     <string name="text_header">Mensaje recibido</string>
     <string name="editText_main_hint">Introduzca su mensaje aquí</string>
+    <string name="button_second">Responder</string>
+    <string name="editText_second">Introduzca su respuesta aquí</string>
+    <string name="text_header_reply">Respuesta recibida</string>
 </resources>
